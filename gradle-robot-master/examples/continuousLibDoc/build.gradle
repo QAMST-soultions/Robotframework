@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath "org.roboscratch.gradle:gradle-robot:0.1.0"
+    }
+}
+
+plugins {
+    id 'net.linguica.maven-settings' version '0.5'
+    id 'maven'
+}
+
+apply plugin: "org.roboscratch.robot"
+
+libdoc.addAllResourcesFromDirectory('resources')
