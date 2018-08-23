@@ -57,6 +57,7 @@ class LibDoc extends DefaultTask {
         addLib('Logging')
         addLib('Robot')
         addLib('RequestsLibrary')
+        addLib('Selenium2Library')
     }
 
     def addAllJavaLibsFromClasspath() {
