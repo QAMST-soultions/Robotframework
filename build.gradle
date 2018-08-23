@@ -43,6 +43,7 @@ dependencies {
     compile 'org.robotframework:robotframework:3.0.4'
     compile 'org.robotframework:Selenium2Library'
     compile 'com.google.guava:guava:19.0'
+    compile 'pyhon:'xlrd'
     testCompile 'org.xmlunit:xmlunit-core:2.1.1'
     testCompile 'org.xmlunit:xmlunit-matchers:2.1.1'
 }
