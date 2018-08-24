@@ -57,7 +57,7 @@ TC1
     set global variable  ${Contact_Email_V}
     #Close Browser
 
-TC3
+#TC3
     [Setup]  Login With Username And Password(1)
     [Teardown]  close browser
     [Documentation]   *Functionality*
@@ -97,7 +97,7 @@ TC3
     set global variable  ${Birth_Date_V}
     Contact.Contact Creation
     #Close Browser
-TC5
+#TC5
     [Setup]  Login With Username And Password(1)
     [Teardown]  close browser
     [Documentation]  *Functionality*
@@ -129,7 +129,7 @@ TC5
     set global variable  ${Bill_Country_V}
     #Close Browser
 
-TC_6
+#TC_6
     [Setup]
     [Teardown]  close browser
     [Documentation]  *Functionality*
